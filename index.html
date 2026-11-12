@@ -137,7 +137,7 @@
     <span class="club"><span>Кибер</span><span class="pride">Pride</span></span>
   </div>
   <h1>Чек-лист чистки клавиатур</h1>
-  <div class="deadline">Дедлайн: 26-е число · Тех. состояние: 27-е</div>
+  <div class="deadline">Дедлайн: 24-е число · Тех. состояние: 25-е</div>
 </div>
 
 <div class="sync-bar">
@@ -184,12 +184,9 @@ const FIREBASE_URL = 'https://keyboards-583dd-default-rtdb.firebaseio.com/';
 
 const DB = FIREBASE_URL ? FIREBASE_URL.replace(/\/+$/, '') : '';
 const ZONES = [
-  { name: 'VIP', color: '#7c5aff', ids: [1] },
-  { name: 'Standard', color: '#00d2f0', ids: [1] },
-  { name: 'Home VIP', color: '#e87820', ids: [1] },
-  { name: 'Solo', color: '#ffab00', ids: [1] },
-  { name: 'Duo', color: '#00e676', ids: [1] },
-  { name: 'Trio', color: '#ff4081', ids: [1] },
+  { name: 'VIP', color: '#7c5aff', ids: [36,37,38,39,40,41,42,43,44,45,46,47,48,49,51,52,53,54,55,56,57,58,59,60,61] },
+  { name: 'Standard', color: '#00d2f0', ids: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21] },
+  { name: 'Standart +', color: '#ff4081', ids: [22,23,24,25,26,27,28,29,30,31,35,50] },
 ];
 
 let state = {};
